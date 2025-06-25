@@ -11,18 +11,17 @@ Whether you're just getting started or building advanced voice-based analytics a
 ### `/simple`
 
 Basic Python scripts demonstrating how to interact with the `inmydata` API:
-- Ask natural language questions and get structured data back
-- Apply filters to datasets
+- Ask natural language questions and get text or structured data back
+- Ask structured data questions and get structured data response
 - Work with financial calendar logic
 
 📄 Includes:
 - `conversationalData.py`: Ask data questions using natural language
-- `structuredData.py`: Run simple and complex filters on data subjects
+- `structuredData.py`: Run data requests with simple and complex filters on data subjects
 - `calendarAssistant.py`: Get financial periods (year, quarter, etc.) from a calendar
 
 🔧 Setup:
 - Python + `.env` file with `INMYDATA_API_KEY`, `INMYDATA_TENANT`, and `INMYDATA_CALENDAR`
-- See [`simple/README.md`](./simple/README.md) for details
 
 ---
 
@@ -37,8 +36,7 @@ A real-time **voice assistant** built using [LiveKit Agents](https://docs.liveki
 - Example prompt logic and fallback handling
 
 🔧 Setup:
-- Requires `LIVEKIT_API_KEY`, `LIVEKIT_SECRET`, `INMYDATA_API_KEY`, and others in `.env`
-- See [`inmydataLivekitAgent/README.md`](./inmydataLivekitAgent/README.md) for full instructions
+- Requires `LIVEKIT_API_KEY`, `LIVEKIT_SECRET`, `INMYDATA_API_KEY`, and others in `.env
 
 ---
 
